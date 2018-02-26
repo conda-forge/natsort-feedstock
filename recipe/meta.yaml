@@ -19,7 +19,7 @@ build:
     - natsort = natsort.__main__:main
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
