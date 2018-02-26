@@ -36,7 +36,9 @@ about:
   license: MIT
   license_file: LICENSE
   summary: 'Sort lists naturally'
-
+  description: |
+    natsort is a general utility for sorting lists naturally either as numbers
+    or as versions.
   doc_url: http://natsort.readthedocs.io/
   dev_url: https://github.com/SethMMorton/natsort
 
