@@ -14,12 +14,15 @@ Summary: Sort lists naturally
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/natsort-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/natsort-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/natsort-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/natsort-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/natsort/badges/version.svg)](https://anaconda.org/conda-forge/natsort)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/natsort/badges/downloads.svg)](https://anaconda.org/conda-forge/natsort)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-natsort-green.svg)](https://anaconda.org/conda-forge/natsort) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/natsort.svg)](https://anaconda.org/conda-forge/natsort) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/natsort.svg)](https://anaconda.org/conda-forge/natsort) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/natsort.svg)](https://anaconda.org/conda-forge/natsort) |
 
 Installing natsort
 ==================
