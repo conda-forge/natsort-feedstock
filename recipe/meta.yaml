@@ -28,6 +28,7 @@ requirements:
 test:
   imports:
     - natsort
+    - natsort.compat
   commands:
     - natsort -h
 
