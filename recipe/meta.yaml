@@ -13,13 +13,13 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - natsort = natsort.__main__:main
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -28,6 +28,7 @@ requirements:
 test:
   imports:
     - natsort
+    - natsort.compat
   commands:
     - natsort -h
 
@@ -36,7 +37,9 @@ about:
   license: MIT
   license_file: LICENSE
   summary: 'Sort lists naturally'
-
+  description: |
+    natsort is a general utility for sorting lists naturally either as numbers
+    or as versions.
   doc_url: http://natsort.readthedocs.io/
   dev_url: https://github.com/SethMMorton/natsort
 
