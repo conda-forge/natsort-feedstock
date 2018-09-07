@@ -1,6 +1,6 @@
 {% set name = "natsort" %}
-{% set version = "5.3.3" %}
-{% set sha256 = "da930bfddce941526955dea8d35a44243c96adf919ceb758ba7bbd1ba5b0a39a" %}
+{% set version = "5.4.0" %}
+{% set sha256 = "9130c8954f9437a0401d4e451b4b90a874b51ce47d91ede0f2cce4db762717f9" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - natsort = natsort.__main__:main
