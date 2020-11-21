@@ -1,6 +1,6 @@
 {% set name = "natsort" %}
-{% set version = "7.0.1" %}
-{% set sha256 = "a633464dc3a22b305df0f27abcb3e83515898aa1fd0ed2f9726c3571a27258cf" %}
+{% set version = "7.1.0" %}
+{% set sha256 = "33f3f1003e2af4b4df20908fe62aa029999d136b966463746942efbfc821add3" %}
 
 package:
   name: {{ name|lower }}
@@ -36,7 +36,7 @@ about:
   home: https://github.com/SethMMorton/natsort
   license: MIT
   license_file: LICENSE
-  summary: 'Sort lists naturally'
+  summary: Sort lists naturally
   description: |
     natsort is a general utility for sorting lists naturally either as numbers
     or as versions.
