@@ -5,9 +5,13 @@ Home: https://github.com/SethMMorton/natsort
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/natsort-feedstock/blob/master/LICENSE.txt)
 
 Summary: Sort lists naturally
+
+Development: https://github.com/SethMMorton/natsort
+
+Documentation: http://natsort.readthedocs.io/
 
 natsort is a general utility for sorting lists naturally either as numbers
 or as versions.
