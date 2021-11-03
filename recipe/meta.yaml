@@ -1,6 +1,6 @@
 {% set name = "natsort" %}
-{% set version = "7.1.1" %}
-{% set sha256 = "00c603a42365830c4722a2eb7663a25919551217ec09a243d3399fa8dd4ac403" %}
+{% set version = "7.2.0" %}
+{% set sha256 = "e7054b4e1f47365f141602a742685165a552291b643a214652d0dd9d6cea58d1" %}
 
 package:
   name: {{ name|lower }}
@@ -20,10 +20,10 @@ build:
 
 requirements:
   host:
-    - python >=3.5
+    - python >=3.6
     - pip
   run:
-    - python >=3.5
+    - python >=3.6
 
 test:
   imports:
