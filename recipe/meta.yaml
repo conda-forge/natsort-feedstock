@@ -1,6 +1,6 @@
 {% set name = "natsort" %}
-{% set version = "8.0.0" %}
-{% set sha256 = "a0a4fd71aee20a6d648da61e01180a63f7268e69983d0440bd3ad80ef1ba6981" %}
+{% set version = "8.0.1" %}
+{% set sha256 = "2e8fbc2b9e44ed7cbdf55d782375d706ba8742591c1c5910992542f3899abbed" %}
 
 package:
   name: {{ name|lower }}
