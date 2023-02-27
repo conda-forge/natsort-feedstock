@@ -1,11 +1,11 @@
-About natsort
-=============
+About natsort-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/natsort-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/SethMMorton/natsort
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/natsort-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sort lists naturally
 
