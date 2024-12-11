@@ -16,7 +16,6 @@ Documentation: http://natsort.readthedocs.io/
 natsort is a general utility for sorting lists naturally either as numbers
 or as versions.
 
-
 Current build status
 ====================
 
