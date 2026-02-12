@@ -11,7 +11,7 @@ source:
   sha256: 45312c4a0e5507593da193dedd04abb1469253b601ecaf63445ad80f0a1ea581
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: python -m pip install . --no-deps -vv
   python:
@@ -20,7 +20,7 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}
+    - python ${{ python_min }}.*
     - setuptools
     - pip
   run:
@@ -32,12 +32,12 @@ tests:
         - natsort
         - natsort.compat
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version: ${{ python_min }}.*
   - script:
       - natsort -h
     requirements:
       run:
-        - python ${{ python_min }}
+        - python ${{ python_min }}.*
 
 about:
   license: MIT
